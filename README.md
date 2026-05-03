@@ -10,3 +10,8 @@ Developer → GitHub → GitHub Actions → Docker Hub → Container Runtime
 ## Docker Image
 
 https://hub.docker.com/r/dattag/devops-demo-app
+
+## Run from Docker Hub
+
+docker pull dattag/devops-demo-app
+docker run -p 5000:5000 dattag/devops-demo-app
